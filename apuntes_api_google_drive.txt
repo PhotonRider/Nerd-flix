@@ -1,0 +1,31 @@
+### API de Google Spreadsheets ###
+1) ID de la Hoja de Google Drive
+
+15o5Be_7BvnuvU9wMBBS0Dz0hOFptbn4o1Z5TtpUVmcw
+
+2) URL de la API de Google Spreadsheets
+
+https://spreadsheets.google.com/feeds/list/{ID}/{HOJA}/public/values?alt=XXXX
+3) Conocer la Ruta de los registros (ingreso a las propiedades)
+
+feed > entry > [item] > gsx$propiedad > $t
+
+/////////////////////////////////////////////////////
+### API de Google Drive ###
+
+1) ID del archivo a utilizar
+1tE5qnS62Zhxp4zbwNvmOTDrEGi1mWxJx
+
+1rbl7wzUp20GSh9gCKsxfn50IGsCYhphx
+
+2) URL de la API de Google Drive
+
+- Imagenes y PDF Descargable
+
+https://docs.google.com/uc?id={ID_ARCHIVO}
+
+- Reproductor de Videos
+https://docs.google.com/file/d/{ID_ARCHIVO}/preview
+
+- Visor de PDF de Google Drive (Nota: sirve tambien para PDF externos)
+https://docs.google.com/viewer?url={RUTA_HTTP_DEL_PDF}
